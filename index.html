@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--boxicons-->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
+    <!--remixicons-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
     <title>My Portfolio</title>
 </head>
 
@@ -19,43 +26,29 @@
 
 
     <header>
+        <a href="#home" class="logo">NightMadeCoder<span>X.</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About </a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+        <div class="top-btnn">
+            <a href="mailto;sulaimanabduljalal@gmail.com" class="h-btn">Get In Touch</a>
+        </div>
 
-
-        <a href="#" class="logo">NightMadeCoder<span>X.</span><a>
-                <div class="bx bx-menu" id="menu-icon">
-                </div>
-                <ul class=" navlist">
-                    <li> <a href="#home">Home
-                        </a>
-                    </li>
-                    <li> <a href="#about">About
-                        </a>
-                    </li>
-                    <li> <a href="#services">Services
-                        </a>
-                    </li>
-                    <li> <a href="#projects">Projects
-                        </a>
-                    </li>
-                    <li> <a href="#contact">Contact
-                        </a>
-                    </li>
-                </ul>
-                <div class="top-btnn">
-                    <a href="#" class="h-btn">Contact Me</a>
-                </div>
 
     </header>
 
 
-
     <!--hero-->
     <section class="hero" id="home">
-        <div class="main-content">
+        <div class="main-content" data-aos="fade-in">
 
 
-            <h4>Hi There!
-            </h4>
+            <h4>Hi, There!</h4>
 
             <h1>I'm Abduljalal <span> Sulaiman</span>
             </h1>
@@ -67,20 +60,9 @@
                 dynamic and interactive user interfaces using JS, along with building robust
                 server-side
                 applications
-                and databases using PHP. The developer is well-versed in industry best practices,
-                follows the latest
-                trends and updates in the JS and PHP ecosystems, and possesses a keen understanding
-                of the
-                intricacies
-                involved in creating efficient and scalable web solutions. With a proven track
-                record, this
-                developer
-                brings a combination of creativity and technical proficiency to deliver high-quality
-                software
-                products
-                that meet client needs and industry standards.
+                and databases using PHP.
             </p>
-            <div class="social">
+            <div class=" social">
                 <a href="#"><i class="ri-github-line"></i></a>
                 <a href="#"><i class="ri-linkedin-box-fill"></i></a>
                 <a href="#"><i class="ri-twitter-x-line"></i></a>
@@ -101,31 +83,36 @@
 
 
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="./img/about.jpeg">
         </div>
 
 
-        <div class="about-text">
+        <div class="about-text" data-aos="zoom-in-up">
 
             <div class="exp-area">
                 <p class="exp">
-                    Experience:<span>3 years
-                    </span> </p>
+                    Experience:
+                    <span> 3 years </span>
+                </p>
                 <p class="exp">
-                    Speciality:<span>Web Development
+                    Speciality:
+                    <span>Web Development
                     </span>
                 </p>
                 <p class="exp">
-                    Email:<span>Nightmadecoder@gmail.com , Sulaimanabduljalal@gmail.com
+                    Email:
+                    <span>Nightmadecoder@gmail.com , Sulaimanabduljalal@gmail.com
                     </span>
                 </p>
                 <p class="exp">
-                    Phone:<span>+2348144662557
+                    Phone:
+                    <span>+2348144662557
                     </span>
                 </p>
                 <p class="exp">
-                    Freelance:<span>Available
+                    Freelance:
+                    <span>Available
                     </span>
                 </p>
             </div>
@@ -136,12 +123,12 @@
     <!-- SERVICES-->
 
     <section class="services" id="services">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
 
             <h2>My <span> Services
                 </span>
             </h2>
-            <div class="services-content">
+            <div class=" services-content" data-aos="zoom-in-up">
                 <div class="box">
                     <img src="img/s-1.svg">
                     <h3> Web Development</h3>
@@ -173,20 +160,19 @@
                     </a>
                 </div>
             </div>
+        </div>
     </section>
-
-
 
     <!--Projects-->
 
 
     <section class="projects" id="projects">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>My <span> Projects
                 </span>
             </h2>
         </div>
-        <div class="projects-content">
+        <div class="projects-content" data-aos="zoom-in-down">
             <div class="row">
                 <img src="img/port-1.jpg">
                 <div class=" main-row">
@@ -280,17 +266,17 @@
     <section class="contact" id="contact">
 
 
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>Contact<span>Me
                 </span>
             </h2>
         </div>
-        <div class="contact-form">
+        <div class="contact-form" data-aos="zoom-in">
             <form action="">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Email Address.." required>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Write Massage here.." required>
-                    </textarea>
+                                        </textarea>
                 <input type="submit" name="" value="send massage" class="send-btn">
             </form>
         </div>
@@ -307,19 +293,14 @@
 
 
     <!--js link-->
-    <script src="js/script.js" type="module">
-
-
-
-
-
-
-
-
-
-
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1400,
+        });
     </script>
-
 </body>
 
 
