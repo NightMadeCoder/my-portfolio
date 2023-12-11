@@ -572,6 +572,7 @@
                 
                    .main-content h4 {
                 font-size: 1rem;
+
             }
                .main-content h1{
                 font-size: x-large;
@@ -580,8 +581,8 @@
             @media (max-width: 680px){
                 .main-content p{
                     width: 100%;
-                    font-size: x-small;
-
+                   
+                }
             }
             @media (max-width: 470px){
                 :root{
