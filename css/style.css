@@ -252,11 +252,11 @@
         .services-content{
         
             display: grid;
-            grid-template-columns:repeat(auto-fit, minmax(300px, auto));
+            grid-template-columns:repeat(auto-fit, minmax(200px, auto));
             align-items: center;
             gap: 2.3rem;
             margin-top: 4.2rem;
-
+            
         }
         .box{
         padding:80px 40px 66px;
@@ -266,7 +266,10 @@
         box-shadow: 0 0 5px var(--main-color);
         transition:all .50s ease ;
         cursor: pointer;
-       
+        -webkit-border-radius: 28px;
+        -moz-border-radius: 28px;
+        -ms-border-radius: 28px;
+        -o-border-radius: 28px;
 }
         .box img{
             margin-bottom: 20px;
